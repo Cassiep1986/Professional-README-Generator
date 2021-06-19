@@ -11,17 +11,11 @@ questions
         name: 'title',
         message: 'What is your project title?',
       },
-      {
-        type: 'input',
-        name: 'Description',
-        message: 'Enter a description of your project',
-      },
-      {
-        type: 'checkbox',
-        name: 'Contents',
-        message: 'Check all applicable table of contents',
-        choices: ['Description', 'Installation', 'Usage', 'license', 'Contributing', 'Tests', 'Questions']
-      },
+      // {
+      //   type: 'input',
+      //   name: 'Description',
+      //   message: 'Enter a description of your project',
+      // },
       // {
       //   type: 'input',
       //   name: 'Installation',
@@ -32,31 +26,32 @@ questions
       //   name: 'Usage',
       //   message: 'Enter usage information for your project',
       // },
-      // {
-      // type: 'list',
-      // name: 'license',
-      // message: 'Select the appropriate license for your project',
-      // },
-      // {
-      //   type: 'input',
-      //   name: 'Contributing',
-      //   message: 'Enter contribution guidelines for your project',
-      // },
-      // {
-      //   type: 'input',
-      //   name: 'Tests',
-      //   message: 'Enter test instructions for your project',
-      // },
-      // {
-      //   type: 'input',
-      //   name: 'Questions1',
-      //   message: 'Enter your github username',
-      // },
-      // {
-      //   type: 'input',
-      //   name: 'Questions2',
-      //   message: 'Enter your email address',
-      // },
+      {
+      type: 'list',
+      name: 'License',
+      message: 'Select the appropriate license for your project',
+      choices: ["MIT", "Mozilla", "ISC", "IBM"],
+      },
+    //   {
+    //     type: 'input',
+    //     name: 'Contributing',
+    //     message: 'Enter contribution guidelines for your project',
+    //   },
+    //   {
+    //     type: 'input',
+    //     name: 'Tests',
+    //     message: 'Enter test instructions for your project',
+    //   },
+    //   {
+    //     type: 'input',
+    //     name: 'Questions1',
+    //     message: 'Enter your github username',
+    //   },
+    //   {
+    //     type: 'input',
+    //     name: 'Questions2',
+    //     message: 'Enter your email address',
+    //   },
       
     ])
 
@@ -70,3 +65,4 @@ questions
 
 
 init();
+
