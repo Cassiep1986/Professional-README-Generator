@@ -22,10 +22,10 @@ This use this application, download index.js and generateMarkdown.js files from 
 ## License
 
 This application is covered under a MIT license. 
-To learn more about this license, please visit this [site](https://choosealicense.com/licenses/mit/)
+To learn more about this license, please visit this [site](https://choosealicense.com/licenses/mit/).
 
 ## Contributing
-To contribute to this repo, please contact me on GITHUB or by email. (Link below)
+To contribute to this repo, please contact me on GITHUB or by email (Link below).
 
 ## Tests
 
@@ -41,4 +41,4 @@ use the following [link](https://drive.google.com/file/d/1AbplFeh8VbFrxcDBtWqqhl
 ## Questions
 This application can be found on my [github](https://www.github.com/cassiep1986?tab=repositories/).
 
-For additonal questions you can contact me by [email](mailto:cassiep1986@gmail.com)
+For additonal questions you can contact me by [email](mailto:cassiep1986@gmail.com).
