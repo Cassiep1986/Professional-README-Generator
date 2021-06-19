@@ -1,17 +1,17 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
-    if (data.license == "MIT") {
+    if (data.License == "MIT") {
         return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
     
-    } else if (data.license == "Mozilla") {
+    } else if (data.License == "Mozilla") {
         return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
 
-    } else if (data.license == "ISC") {
+    } else if (data.License == "ISC") {
         return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)';
 
-    } else if (data.license == "IBM") {
-        return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)';
+    } else if (data.License == "Apache License 2.0") {
+        return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
 
     } else  {
         return ""
@@ -20,19 +20,34 @@ function renderLicenseBadge(data) {
 
     }
     
-
-
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(data) {
+    if (data.License == "MIT") {
+        return 'https://choosealicense.com/licenses/mit/';
+    
+    } else if (data.License == "Mozilla") {
+        return 'https://choosealicense.com/licenses/mpl-2.0/';
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+    } else if (data.License == "ISC") {
+        return 'https://opensource.org/licenses/ISC';
+
+    } else if (data.License == "Apache License 2.0") {
+        return 'https://choosealicense.com/licenses/apache-2.0/';
+
+    } else  {
+        return ""
+    
+    };
+
+    }
+
+
+
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) =>
-`# ${input.title} ${renderLicenseBadge(data)} 
+`# ${data.title} ${renderLicenseBadge(data)} 
 
 ## Description
 ${data.Description}
@@ -53,7 +68,9 @@ ${data.Installation}
 ${data.Usage}
 
 ## License
-${data.License}
+
+This application is covered under a ${data.License} license. 
+To learn more about this license, please visit this [site](${renderLicenseLink(data)})
 
 ## Contributing
 ${data.Contributing}
@@ -62,9 +79,9 @@ ${data.Contributing}
 ${data.Tests}
 
 ## Questions
-This application can be found on my [github](https://www/github.com/${data.Questions1}?tab=repositories/).
+This application can be found on my [github](https://www.github.com/${data.Questions1}?tab=repositories/).
 
-For additonal question you can email me at ${data.Questions2}
+For additonal questions you can contact me by [email](mailto:${data.Questions2})
 `;
 
 
