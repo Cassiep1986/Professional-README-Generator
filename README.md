@@ -9,8 +9,6 @@ This application creates a professional README markdown file.
 - [Usage](#Usage)
 - [license](#license) 
 - [Contributing](#Contributing)
-- [Tests](#Tests)
-- [Demo Video](#DemoVideo)
 - [Questions](#Questions)
 
 ## Installation
@@ -18,6 +16,11 @@ This use this application, download index.js and generateMarkdown.js files from 
 
 ## Usage
 
+The following animation shows the application's inital steps for starting the application:
+
+![README demo](./READMEDemoVideo.gif)
+
+use the following [link](https://drive.google.com/file/d/1AbplFeh8VbFrxcDBtWqqhl8wEHe2R8lF/view) to access the full length video.
 
 ## License
 
@@ -26,17 +29,6 @@ To learn more about this license, please visit this [site](https://choosealicens
 
 ## Contributing
 To contribute to this repo, please contact me on GITHUB or by email (Link below).
-
-## Tests
-
-## Demo Video
-
-The following animation shows the application's inital steps for starting the application:
-
-![README demo](./READMEDemoVideo.gif)
-
-use the following [link](https://drive.google.com/file/d/1AbplFeh8VbFrxcDBtWqqhl8wEHe2R8lF/view) to access the full length video.
-
 
 ## Questions
 This application can be found on my [github](https://www.github.com/cassiep1986?tab=repositories/).
