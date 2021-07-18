@@ -19,7 +19,7 @@ questions
       {
         type: 'input',
         name: 'Installation',
-        message: 'Enter installation instructions for your project',
+        message: 'Enter installation information for your project',
       },
       {
         type: 'input',
