@@ -24,7 +24,7 @@ questions
       {
         type: 'input',
         name: 'Usage',
-        message: 'Enter usage information for your project',
+        message: 'Enter usage information for your project (Note: animation and pictures will have to be added after README is complete)',
       },
       {
       type: 'list',
