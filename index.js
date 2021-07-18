@@ -33,10 +33,10 @@ questions
       choices: ["MIT", "Mozilla", "ISC", "IBM"],
       },
       {
-        type: 'list',
+        type: 'checkbox',
         name: 'Technology',
-        message: 'Select the appropriate license for your project',
-        choices: ["MIT", "Mozilla", "ISC", "IBM"],
+        message: 'Select the technologies used for your project',
+        choices: ["HTML", "CSS", "Javascript", "Node.js"],
         },
       {
         type: 'input',
