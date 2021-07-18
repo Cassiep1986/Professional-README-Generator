@@ -33,6 +33,12 @@ questions
       choices: ["MIT", "Mozilla", "ISC", "IBM"],
       },
       {
+        type: 'list',
+        name: 'Technology',
+        message: 'Select the appropriate license for your project',
+        choices: ["MIT", "Mozilla", "ISC", "IBM"],
+        },
+      {
         type: 'input',
         name: 'Contributing',
         message: 'Enter contribution guidelines for your project',
