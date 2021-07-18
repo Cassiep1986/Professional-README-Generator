@@ -56,7 +56,8 @@ ${data.Description}
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [license](#license) 
+- [License](#License)
+- [Technology](#Technology) 
 - [Contributing](#Contributing)
 - [Tests](#Tests)
 - [Questions](#Questions)
@@ -71,6 +72,15 @@ ${data.Usage}
 
 This application is covered under a ${data.License} license. 
 To learn more about this license, please visit this [site](${renderLicenseLink(data)})
+
+## Technology
+
+This application was made using the following technologies:
+
+- ${data.Technology[0]}
+- ${data.Technology[1]}
+- ${data.Technology[2]}
+- ${data.Technology[3]}
 
 ## Contributing
 ${data.Contributing}
