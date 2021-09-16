@@ -63,7 +63,7 @@ questions
 
 .then((data) => {
     const mdPageContent = generateMarkdown(data);
-    fs.writeFile('README.md', mdPageContent, (err) =>
+    fs.writeFile('Example-README.md', mdPageContent, (err) =>
     err ? console.log(err) : console.log('Successfully created README.md!')
   );
 });
