@@ -14,17 +14,19 @@ The application guides the user through prompts to create a professional README 
 ## Installation
 To use this application, download index.js and generateMarkdown.js files from this repository. 
 
-Install dependencies inquirer with the following command 
+Install the following dependencies (command prompts in code snippet):
+
+inquirer:
 ```
 npm i inquirer
 ```
 
-and package.json
+package.json:
 ```
-command npm init
+npm init
 ```
 
-Initialize the application by entering the following prompt:
+Initialize the application by entering the following prompt in the terminal:
 ```
 node index.js
 ```
