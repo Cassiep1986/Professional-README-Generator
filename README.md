@@ -1,7 +1,7 @@
-# README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Professional README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Description
-This application creates a professional README markdown file.
+The application guides the user through prompts to create a professional README markdown file. 
 
 ## Table of contents
 - [Description](#Description)
