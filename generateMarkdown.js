@@ -71,7 +71,7 @@ ${data.Usage}
 ## License
 
 This application is covered under a ${data.License} license. 
-To learn more about this license, please visit this [site](${renderLicenseLink(data)})
+To learn more about this license, please visit the following site: [${renderLicenseLink(data)}](${renderLicenseLink(data)})
 
 ## Technology
 
@@ -91,7 +91,7 @@ ${data.Tests}
 ## Questions
 Additional information for this application can be found on my [github](https://www.github.com/${data.Questions1}?tab=repositories/).
 
-For additonal questions you can contact me by [email](mailto:${data.Questions2})
+For additonal questions you can contact me by email at ${data.Questions2} by clicking [here](mailto:${data.Questions2})
 `;
 
 

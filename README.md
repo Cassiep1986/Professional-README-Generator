@@ -12,7 +12,24 @@ The application guides the user through prompts to create a professional README 
 - [Questions](#Questions)
 
 ## Installation
-This use this application, download index.js and generateMarkdown.js files from this repository. Install dependencies inquirer (command npm i inquirer) and package.json(command npm init). Note: This application requiers installation of both node.js and npm.
+To use this application, download index.js and generateMarkdown.js files from this repository. 
+
+Install dependencies inquirer with the following command 
+```
+npm i inquirer
+```
+
+and package.json
+```
+command npm init
+```
+
+Initialize the application by entering the following prompt:
+```
+node index.js
+```
+
+Note: This application requiers installation of both node.js and npm. 
 
 ## Usage
 
@@ -20,17 +37,17 @@ The following animation shows the application's inital steps for starting the ap
 
 ![README demo](./READMEDemoVideo.gif)
 
-use the following [link](https://drive.google.com/file/d/1AbplFeh8VbFrxcDBtWqqhl8wEHe2R8lF/view) to access the full length video.
+Use the following link: (https://drive.google.com/file/d/1AbplFeh8VbFrxcDBtWqqhl8wEHe2R8lF/view) to access the full length video.
 
 ## License
 
 This application is covered under a MIT license. 
-To learn more about this license, please visit this [site](https://choosealicense.com/licenses/mit/).
+To learn more about this license, please visit the following site: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/).
 
 ## Contributing
-To contribute to this repo, please contact me on GITHUB or by email (Link below).
+To contribute to this repo, please contact me on GITHUB or by email (Links below).
 
 ## Questions
 Additional information for this application can be found on my [github](https://www.github.com/cassiep1986?tab=repositories/).
 
-For additonal questions you can contact me by [email](mailto:cassiep1986@gmail.com).
+For questions you can contact me by email at cassiep1986@gmail.com by clicking [here](mailto:cassiep1986@gmail.com).
