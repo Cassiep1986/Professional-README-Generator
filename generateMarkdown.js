@@ -89,7 +89,7 @@ ${data.Contributing}
 ${data.Tests}
 
 ## Questions
-This application can be found on my [github](https://www.github.com/${data.Questions1}?tab=repositories/).
+Additional information for this application can be found on my [github](https://www.github.com/${data.Questions1}?tab=repositories/).
 
 For additonal questions you can contact me by [email](mailto:${data.Questions2})
 `;
